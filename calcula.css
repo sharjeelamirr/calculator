@@ -1,0 +1,62 @@
+#calcc{
+    display: flex;
+    background-color: rgb(255, 249, 249);
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+#doosreediv{
+    background-color: rgb(0, 0, 0);
+    height: 80vh;
+    width: 20vw;
+    border-radius: 3em;
+}
+.display{
+    height: 30%;
+    width: 100%;
+    color: white;
+    font-size: 3em;
+    padding: 1rem;
+}
+#chothee{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    height: 70%;
+    width: 100%;
+}
+button{
+    margin: 0.33em;
+    height: 3.7rem;
+    width: 3.7rem;
+    border-radius: 3rem;
+    background-color: #333333;
+    color: white;
+    border-style: none;
+}
+#opera{
+    background-color: #FF9F0A;
+    color: white;
+}
+#Greywala{
+    background-color: #A5A5A5;
+    color: black;
+}
+#Bondaa{
+    width: 8.2rem;
+}
+@media (max-width: 600px) {
+    .calcc {
+        max-width: 100%;
+        gap: 5px;
+    }
+    
+    .calcc button {
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    .display {
+        font-size: 24px;
+    }
+}
